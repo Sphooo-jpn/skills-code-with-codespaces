@@ -7,5 +7,13 @@
       "version": "3.10"
     }
   },
-  "postCreateCommand" : ".devcontainer/postCreate.sh"
+  "postCreateCommand": ".devcontainer/postCreate.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.autopep8",
+        "ms-python.debugpy"
+      ]
+    }
+  }
 }
